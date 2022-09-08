@@ -6,6 +6,7 @@ let array = [];
 for (i = 0; i<10; i++) {
     array.push(getRandomArbitrary(1,100))
 }
+array.sort();
 for (i = 0; i <array.length; i++) {
     console.log(array[i]);
 }
